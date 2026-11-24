@@ -3,12 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arjan Ghosh - Senior Lecturer, Computer Science &amp; Engineering</title>
-<meta name="description" content="Arjan Ghosh is a Senior Lecturer at Northern University of Business and Technology, Khulna. His research covers NLP, AI, IoT and machine learning.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%231C2331%22/><text x=%2250%22 y=%2266%22 font-size=%2252%22 font-family=%22Georgia,serif%22 fill=%22%23F2C879%22 text-anchor=%22middle%22>A</text></svg>">
+<title>Arjan Ghosh - Senior Lecturer, CSE</title>
+<meta name="description" content="Arjan Ghosh is a Senior Lecturer in Computer Science and Engineering at Northern University of Business and Technology, Khulna. Research in NLP, AI, IoT and machine learning.">
+<meta property="og:title" content="Arjan Ghosh - Senior Lecturer, CSE">
+<meta property="og:description" content="Research in NLP, applied AI, IoT and machine learning. Northern University of Business and Technology, Khulna.">
+<meta property="og:image" content="assets/arjan.jpg">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2224%22 fill=%22%232F5BEA%22/><text x=%2250%22 y=%2268%22 font-size=%2256%22 font-family=%22Arial,sans-serif%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>A</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <script>
   try {
@@ -19,357 +23,321 @@
 </head>
 <body>
 
-<!-- Icon sprite (used with <use href="#i-name">) -->
+<!-- Icon sprite -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
-    <symbol id="i-user" viewBox="0 0 20 20"><circle cx="10" cy="6.5" r="3.2"/><path d="M3.5 17c1-3.6 4-5.4 6.5-5.4s5.5 1.8 6.5 5.4"/></symbol>
-    <symbol id="i-briefcase" viewBox="0 0 20 20"><rect x="3" y="6.5" width="14" height="9.5" rx="1.2"/><path d="M7 6.5V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/></symbol>
-    <symbol id="i-cap" viewBox="0 0 20 20"><path d="M10 3 2 7l8 4 8-4-8-4Z"/><path d="M5 9.5V14c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5V9.5"/></symbol>
-    <symbol id="i-search" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5"/><path d="M16.5 16.5 13 13"/></symbol>
-    <symbol id="i-medal" viewBox="0 0 20 20"><circle cx="10" cy="7.5" r="4.2"/><path d="M7 11l-1.3 6 4.3-2 4.3 2-1.3-6"/></symbol>
-    <symbol id="i-check" viewBox="0 0 20 20"><path d="M4 3.5h9L17 7v9.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-12a1 1 0 0 1 1-1Z"/><path d="M7 10.5l2 2 4-4.5"/></symbol>
-    <symbol id="i-spark" viewBox="0 0 20 20"><path d="M10 2.5v3M10 14.5v3M2.5 10h3M14.5 10h3"/><circle cx="10" cy="10" r="3.6"/></symbol>
-    <symbol id="i-mail" viewBox="0 0 20 20"><rect x="2.5" y="4.5" width="15" height="11" rx="1.4"/><path d="M3 5.5l7 5 7-5"/></symbol>
-    <symbol id="i-phone" viewBox="0 0 20 20"><path d="M4 3.5c1.2 0 2.4.2 3 1 .5.7.6 1.7.3 2.4-.3.6-1 1-1 1.6 0 1 2 3 3 4s3 3 4 3c.6 0 1-.7 1.6-1 .7-.3 1.7-.2 2.4.3.8.6 1 1.8 1 3 0 1-1 1.7-2 1.7-4 0-13-9-13-13 0-1 .7-2 1.7-2Z"/></symbol>
-    <symbol id="i-pin" viewBox="0 0 20 20"><path d="M10 18s6-5.7 6-10.4A6 6 0 0 0 4 7.6C4 12.3 10 18 10 18Z"/><circle cx="10" cy="7.5" r="2"/></symbol>
-    <symbol id="i-arrow-up" viewBox="0 0 20 20"><path d="M10 15.5V5M10 5 4.5 10.5M10 5l5.5 5.5"/></symbol>
-    <symbol id="i-sun" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.6"/><path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2M4.7 4.7l1.4 1.4M13.9 13.9l1.4 1.4M4.7 15.3l1.4-1.4M13.9 6.1l1.4-1.4"/></symbol>
-    <symbol id="i-moon" viewBox="0 0 20 20"><path d="M16.5 11.8A6.8 6.8 0 0 1 8.2 3.5a6.8 6.8 0 1 0 8.3 8.3Z"/></symbol>
-    <symbol id="i-external" viewBox="0 0 20 20"><path d="M8 4.5H5a1 1 0 0 0-1 1V15a1 1 0 0 0 1 1h9.5a1 1 0 0 0 1-1v-3M11 4h5v5M16 4l-7 7"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 6 6L15 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></symbol>
+    <symbol id="i-brain" viewBox="0 0 24 24"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 6 1V5a3 3 0 0 0-3-1Z"/><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-6 1"/></symbol>
+    <symbol id="i-text" viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h13"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path d="M5 12a7 7 0 0 1 14 0M8 12a4 4 0 0 1 8 0"/><circle cx="12" cy="12" r="1"/><path d="M12 13v7"/></symbol>
+    <symbol id="i-graph" viewBox="0 0 24 24"><path d="M4 19h16"/><path d="m5 15 4-5 4 3 6-7"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5"/><path d="m8.5 13.5-1.5 7 5-2.5 5 2.5-1.5-7"/></symbol>
+    <symbol id="i-cert" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.4 6.7 19.4l1.2-6L3.4 9.3l6-.7L12 3Z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v15H5.5A1.5 1.5 0 0 0 4 20.5v-15Z"/><path d="M4 20.5A1.5 1.5 0 0 0 5.5 22H19"/></symbol>
+    <symbol id="i-scholar" viewBox="0 0 24 24"><path d="M12 3 2 9l10 6 10-6-10-6Z"/><path d="M6 11.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.5"/></symbol>
   </defs>
 </svg>
 
-<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
-
 <a class="skip-link" href="#main">Skip to content</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
 
-<div class="page">
+<!-- Top navigation -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo" aria-label="Arjan Ghosh, home">
+      <span class="logo-mark">AG</span>
+      <span class="logo-text">Arjan Ghosh</span>
+    </a>
 
-  <!-- Sidebar -->
-  <header class="sidebar" id="sidebar">
-    <div class="sidebar-top">
-      <a href="#top" class="mark" aria-label="Arjan Ghosh, home"><span class="mark-letter">A</span></a>
-      <div class="brand-text">
-        <p class="brand-name">Arjan Ghosh</p>
-        <p class="brand-role">Senior Lecturer, CSE</p>
-      </div>
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch colour theme" title="Switch colour theme">
-        <svg class="ic-moon"><use href="#i-moon"/></svg><svg class="ic-sun"><use href="#i-sun"/></svg>
-      </button>
-      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-
-    <nav class="site-nav" id="siteNav">
-      <p class="nav-label">Contents</p>
-      <ol>
-        <li><a href="#about" data-nav><svg class="nav-icon"><use href="#i-user"/></svg>About</a></li>
-        <li><a href="#experience" data-nav><svg class="nav-icon"><use href="#i-briefcase"/></svg>Experience</a></li>
-        <li><a href="#education" data-nav><svg class="nav-icon"><use href="#i-cap"/></svg>Education</a></li>
-        <li><a href="#research" data-nav><svg class="nav-icon"><use href="#i-search"/></svg>Research &amp; Skills</a></li>
-        <li><a href="#awards" data-nav><svg class="nav-icon"><use href="#i-medal"/></svg>Honours &amp; Awards</a></li>
-        <li><a href="#certifications" data-nav><svg class="nav-icon"><use href="#i-check"/></svg>Certifications</a></li>
-        <li><a href="#activities" data-nav><svg class="nav-icon"><use href="#i-spark"/></svg>Activities</a></li>
-        <li><a href="#contact" data-nav><svg class="nav-icon"><use href="#i-mail"/></svg>Contact</a></li>
-      </ol>
+    <nav class="nav-links" id="navLinks" aria-label="Sections">
+      <a href="#about" data-nav>About</a>
+      <a href="#research" data-nav>Research</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#education" data-nav>Education</a>
+      <a href="#achievements" data-nav>Achievements</a>
+      <a href="#contact" data-nav>Contact</a>
     </nav>
 
-    <div class="sidebar-bottom">
-      <a href="mailto:arjan.ghosh@g.bracu.ac.bd">arjan.ghosh@g.bracu.ac.bd</a>
-      <a href="https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme" title="Switch colour theme">
+        <svg class="ic-moon"><use href="#i-moon"/></svg>
+        <svg class="ic-sun"><use href="#i-sun"/></svg>
+      </button>
+      <a class="nav-cta" href="#contact">Contact</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main id="main">
+<main id="main">
 
-    <!-- Slim identity bar, appears after the hero scrolls away -->
-    <div class="mini-header" id="miniHeader">
-      <a href="#top" class="mini-header-brand">
-        <img src="assets/arjan.jpg" alt="" width="30" height="30">
-        <span><strong>Arjan Ghosh</strong><em>Senior Lecturer, CSE</em></span>
-      </a>
-      <a class="mini-header-cta" href="#contact">Get in touch</a>
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="blob b1"></span>
+      <span class="blob b2"></span>
+      <span class="grid"></span>
     </div>
 
-    <!-- Hero -->
-    <section class="hero" id="top">
-      <span class="hero-glow" aria-hidden="true"></span>
-      <div class="hero-card">
-        <div class="hero-portrait">
-          <span class="portrait-ring" aria-hidden="true"></span>
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="badge"><span class="dot"></span>Senior Lecturer · CSE · NUBTK</p>
+        <h1>Hi, I'm Arjan Ghosh.<br><span class="grad">I teach and research AI.</span></h1>
+        <p class="lede">Senior Lecturer in Computer Science and Engineering at Northern University of Business and Technology, Khulna. My work covers Natural Language Processing, applied Artificial Intelligence, the Internet of Things and machine learning.</p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Get in touch <svg><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-soft" href="https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener"><svg><use href="#i-scholar"/></svg> Google Scholar</a>
+        </div>
+
+        <ul class="hero-meta">
+          <li><svg><use href="#i-pin"/></svg>Khulna, Bangladesh</li>
+          <li><svg><use href="#i-mail"/></svg><a href="mailto:ghosharjan@gmail.com">ghosharjan@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-card">
           <img src="assets/arjan.jpg" alt="Portrait of Arjan Ghosh" width="250" height="250">
         </div>
-        <div class="hero-text">
-          <p class="hero-kicker">Department of Computer Science &amp; Engineering</p>
-          <h1>Arjan Ghosh</h1>
-          <p class="hero-role">Senior Lecturer, Northern University of Business and Technology, Khulna</p>
-          <p class="hero-lede">He researches Natural Language Processing, applied Artificial Intelligence, the Internet of Things and machine learning, and reviews for a number of international conferences. He has authored and co-authored about 13 publications across journals, conference papers and book chapters.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Get in touch</a>
-            <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar<svg class="btn-icon"><use href="#i-external"/></svg></a>
-          </div>
-          <ul class="quick-links">
-            <li><a href="mailto:ghosharjan@gmail.com"><svg><use href="#i-mail"/></svg>ghosharjan@gmail.com</a></li>
-            <li><a href="tel:+8801752914949"><svg><use href="#i-phone"/></svg>+880 1752 914949</a></li>
-            <li><span class="quick-link-static"><svg><use href="#i-pin"/></svg>Khulna, Bangladesh</span></li>
-          </ul>
-        </div>
+        <div class="float-chip fc1"><svg><use href="#i-book"/></svg><span><strong>13</strong> publications</span></div>
+        <div class="float-chip fc2"><svg><use href="#i-star"/></svg><span><strong>3.91</strong> M.Sc. CGPA</span></div>
+        <div class="float-chip fc3"><span class="live"></span><span>Senior Lecturer since 2022</span></div>
+      </div>
+    </div>
+
+    <a class="scroll-hint" href="#about" aria-label="Scroll to About"><svg><use href="#i-down"/></svg></a>
+  </section>
+
+  <!-- Skills ticker -->
+  <div class="ticker" aria-label="Skills">
+    <div class="ticker-track">
+      <span>Natural Language Processing</span><span>Machine Learning</span><span>Python</span><span>TensorFlow</span><span>PyTorch</span><span>Keras</span><span>Internet of Things</span><span>Java</span><span>MySQL</span><span>Git</span><span>Applied AI</span><span>Communications</span>
+      <span aria-hidden="true">Natural Language Processing</span><span aria-hidden="true">Machine Learning</span><span aria-hidden="true">Python</span><span aria-hidden="true">TensorFlow</span><span aria-hidden="true">PyTorch</span><span aria-hidden="true">Keras</span><span aria-hidden="true">Internet of Things</span><span aria-hidden="true">Java</span><span aria-hidden="true">MySQL</span><span aria-hidden="true">Git</span><span aria-hidden="true">Applied AI</span><span aria-hidden="true">Communications</span>
+    </div>
+  </div>
+
+  <!-- About + stats bento -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">About</p>
+        <h2>Teacher, researcher and reviewer.</h2>
       </div>
 
-      <ul class="stat-row">
-        <li><p class="stat-num">13</p><p class="stat-label">Publications and co-authored works</p></li>
-        <li><p class="stat-num">4+</p><p class="stat-label">Years in university teaching</p></li>
-        <li><p class="stat-num">3.91</p><p class="stat-label">M.Sc. GPA, Highest Distinction</p></li>
-        <li><p class="stat-num">7</p><p class="stat-label">Online certifications</p></li>
-      </ul>
-    </section>
+      <div class="bento">
+        <article class="card about-card reveal">
+          <p>I completed my M.Sc. in Computer Science and Engineering at Khulna University and my B.Sc. at BRAC University, Dhaka, both with Highest Distinction. Since 2022 I have been a Senior Lecturer at Northern University of Business and Technology, Khulna.</p>
+          <p>I research Natural Language Processing, advanced AI, IoT, communications and machine learning, and I review for a number of international conferences. My teaching roles taught me a lot about mentoring and about working closely with students.</p>
+        </article>
 
-    <!-- About -->
-    <section class="block" id="about">
-      <h2><span class="block-no">01</span>About</h2>
-      <div class="block-body">
-        <p>Arjan Ghosh completed his M.Sc. in Computer Science and Engineering at Khulna University, Bangladesh, and holds a B.Sc. in Computer Science and Engineering from BRAC University in Dhaka. He currently works as a Senior Lecturer in the Department of Computer Science and Engineering at the Northern University of Business and Technology in Khulna, Bangladesh.</p>
-        <p>His research spans Natural Language Processing, advanced Artificial Intelligence, the Internet of Things, communications and machine learning, and he serves as a reviewer for a number of international conferences. He values his past teaching roles for the mentoring experience they gave him and for what they taught him about working closely with students.</p>
+        <article class="card stat reveal"><p class="num" data-count="13">13</p><p class="lbl">Publications: journals, conferences and book chapters</p></article>
+        <article class="card stat reveal"><p class="num" data-count="3.91" data-dec="2">3.91</p><p class="lbl">M.Sc. CGPA out of 4.00</p></article>
+        <article class="card stat reveal"><p class="num" data-count="12">12</p><p class="lbl">Semesters on merit scholarship</p></article>
+        <article class="card stat reveal"><p class="num" data-count="7">7</p><p class="lbl">Coursera certifications</p></article>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Experience -->
-    <section class="block" id="experience">
-      <h2><span class="block-no">02</span>Work Experience</h2>
-      <div class="timeline">
-
-        <article class="timeline-item">
-          <div class="timeline-when"><p class="timeline-date">2022 - Current</p></div>
-          <div class="timeline-what">
-            <h3>Senior Lecturer</h3>
-            <p class="timeline-org">Northern University of Business and Technology, Khulna, Bangladesh</p>
-            <ul>
-              <li><strong>Course development:</strong> designing and delivering undergraduate and postgraduate courses, including Object Oriented Programming, Computer Networks, Computing and Software Development.</li>
-              <li><strong>Lecture delivery:</strong> running lectures, seminars and tutorials to support student learning.</li>
-              <li><strong>Assessment and feedback:</strong> designing and grading exams, assignments and projects, with constructive feedback to students.</li>
-              <li><strong>Student mentorship:</strong> advising students on academic and career goals and guiding independent research projects.</li>
-              <li><strong>Research and grant writing:</strong> conducting research in his field of specialisation and securing funding through research proposals.</li>
-              <li><strong>Collaboration:</strong> partnering with colleagues and industry professionals on interdisciplinary research projects.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="timeline-item">
-          <div class="timeline-when"><p class="timeline-date">Feb - Apr 2020</p></div>
-          <div class="timeline-what">
-            <h3>Under-Graduate Teaching Assistant</h3>
-            <p class="timeline-org">BRAC University, Dhaka, Bangladesh</p>
-            <ul>
-              <li>Helped students improve grades, test-taking ability and classroom confidence, and planned classes to reinforce weaker subjects.</li>
-              <li>Collaborated with students to complete assignments and identify and correct shortcomings.</li>
-              <li>Used a mix of in-person, online and on-demand tutoring to suit each student's schedule, moving fully to recorded and live remote sessions during COVID-19 restrictions.</li>
-            </ul>
-          </div>
-        </article>
-
+  <!-- Research -->
+  <section class="section alt" id="research">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Research</p>
+        <h2>What I work on.</h2>
       </div>
-    </section>
 
-    <!-- Education -->
-    <section class="block" id="education">
-      <h2><span class="block-no">03</span>Education and Training</h2>
-      <div class="timeline">
-
-        <article class="timeline-item">
-          <div class="timeline-when"><p class="timeline-date">2022 - 2026</p></div>
-          <div class="timeline-what">
-            <h3>M.Sc. in Computer Science and Engineering</h3>
-            <p class="timeline-org">Khulna University, Khulna, Bangladesh</p>
-            <p class="timeline-detail">Field of study: Big Data, Research Methodology, Machine Learning</p>
-            <p class="timeline-detail">Final grade: <strong>3.91 / 4.00</strong> (Highest Distinction) · EQF level 7</p>
-            <p class="timeline-detail"><strong>Thesis:</strong> A machine learning and DEM-based approach for predicting sea level rise and assessing coastal risk in Bangladesh using AI insights.</p>
-          </div>
-        </article>
-
-        <article class="timeline-item">
-          <div class="timeline-when"><p class="timeline-date">2017 - 2021</p></div>
-          <div class="timeline-what">
-            <h3>B.Sc. in Computer Science and Engineering</h3>
-            <p class="timeline-org">BRAC University, Dhaka, Bangladesh</p>
-            <p class="timeline-detail">Field of study: Object Oriented Programming, Data Structures, Algorithms, Databases, Computer Systems, Machine Learning, Communications and Networks</p>
-            <p class="timeline-detail">Final grade: <strong>3.75 / 4.00</strong> (Highest Distinction) · EQF level 6</p>
-            <p class="timeline-detail"><strong>Thesis:</strong> Amazon Product Reviews - Sentiment Analysis Using Supervised Learning Algorithms.</p>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- Research & Skills -->
-    <section class="block" id="research">
-      <h2><span class="block-no">04</span>Research &amp; Skills</h2>
-
-      <div class="research-grid">
-        <div class="research-col">
-          <h3>Research areas</h3>
-          <ul class="chip-list">
-            <li>Natural Language Processing</li>
-            <li>Applied Artificial Intelligence</li>
-            <li>Internet of Things</li>
-            <li>Communications</li>
-            <li>Machine Learning</li>
-          </ul>
-        </div>
-
-        <div class="research-col">
+      <div class="r-grid">
+        <article class="card r-card reveal"><span class="r-ic"><svg><use href="#i-text"/></svg></span><h3>Natural Language Processing</h3><p>Text understanding and sentiment analysis, starting from my B.Sc. thesis on Amazon product reviews.</p></article>
+        <article class="card r-card reveal"><span class="r-ic"><svg><use href="#i-brain"/></svg></span><h3>Applied Artificial Intelligence</h3><p>Using AI for real problems, such as coastal risk assessment for Bangladesh in my M.Sc. thesis.</p></article>
+        <article class="card r-card reveal"><span class="r-ic"><svg><use href="#i-graph"/></svg></span><h3>Machine Learning</h3><p>Supervised learning and prediction models, including sea level rise prediction with DEM data.</p></article>
+        <article class="card r-card reveal"><span class="r-ic"><svg><use href="#i-chip"/></svg></span><h3>Internet of Things</h3><p>Connected devices and sensor-based systems.</p></article>
+        <article class="card r-card reveal"><span class="r-ic"><svg><use href="#i-wave"/></svg></span><h3>Communications</h3><p>Communication and networking systems.</p></article>
+        <article class="card r-card pub-card reveal">
+          <span class="r-ic"><svg><use href="#i-book"/></svg></span>
           <h3>Publications</h3>
-          <p>About 13 publications co-authored across journal articles, conference papers and book chapters, alongside conference peer-review service.</p>
-          <a class="link-arrow" href="https://drive.google.com/file/d/1jy_j6QUZbHLUKRJOloBlcKv6HH-1Geey/view?usp=sharing" target="_blank" rel="noopener">Full publication list<svg><use href="#i-external"/></svg></a>
-          <a class="link-arrow" href="https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar profile<svg><use href="#i-external"/></svg></a>
-        </div>
+          <p>About 13 papers co-authored across journals, conferences and book chapters.</p>
+          <div class="pub-links">
+            <a href="https://drive.google.com/file/d/1jy_j6QUZbHLUKRJOloBlcKv6HH-1Geey/view?usp=sharing" target="_blank" rel="noopener">Publication list <svg><use href="#i-arrow"/></svg></a>
+            <a href="https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar <svg><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+      </div>
 
-        <div class="research-col">
-          <h3>Technical skills</h3>
-          <ul class="chip-list">
-            <li>Python</li><li>Java</li><li>MySQL</li><li>HTML / CSS / JavaScript</li><li>Git</li>
-            <li>TensorFlow</li><li>Keras</li><li>PyTorch</li><li>Linux &amp; Windows</li>
-          </ul>
+      <div class="skills reveal">
+        <div class="skill-group">
+          <h3>Programming &amp; tools</h3>
+          <ul class="tags"><li>Python</li><li>Java</li><li>MySQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li><li>Linux</li><li>Windows</li></ul>
         </div>
-
-        <div class="research-col">
-          <h3>Soft skills</h3>
-          <ul class="chip-list">
-            <li>Communication &amp; social skills</li>
-            <li>Strategic thinking</li>
-            <li>Hard-working</li>
-            <li>Responsibility &amp; decision-making</li>
-          </ul>
+        <div class="skill-group">
+          <h3>ML frameworks</h3>
+          <ul class="tags"><li>TensorFlow</li><li>Keras</li><li>PyTorch</li></ul>
         </div>
-
-        <div class="research-col research-wide">
+        <div class="skill-group">
           <h3>Languages</h3>
-          <table class="lang-table">
-            <tbody>
-              <tr><td>Bengali</td><td>Mother tongue</td></tr>
-              <tr><td>English</td><td>Listening C1 · Reading C2 · Writing C1 · Spoken production C2 · Spoken interaction C1</td></tr>
-              <tr><td>Hindi</td><td>A1 across all skills</td></tr>
-            </tbody>
-          </table>
-          <p class="fine-print">CEFR scale: A1-A2 basic user, B1-B2 independent user, C1-C2 proficient user.</p>
+          <ul class="tags"><li>Bengali · native</li><li>English · C1-C2</li><li>Hindi · A1</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Soft skills</h3>
+          <ul class="tags"><li>Communication</li><li>Strategic thinking</li><li>Decision-making</li><li>Hard-working</li></ul>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Honours & Awards -->
-    <section class="block" id="awards">
-      <h2><span class="block-no">05</span>Honours &amp; Awards</h2>
-      <ul class="plain-list icon-list">
-        <li>
-          <span class="item-icon"><svg><use href="#i-medal"/></svg></span>
-          <div>
-            <h3>Merit-Based Academic Scholarship</h3>
-            <p>BRAC University · Awarded across 12 consecutive semesters for consistently high academic performance throughout the undergraduate programme.</p>
-          </div>
-        </li>
-        <li>
-          <span class="item-icon"><svg><use href="#i-medal"/></svg></span>
-          <div>
-            <h3>Vice-Chancellor's List</h3>
-            <p>BRAC University · Recognised for outstanding academic performance across four separate semesters.</p>
-          </div>
-        </li>
-        <li>
-          <span class="item-icon"><svg><use href="#i-medal"/></svg></span>
-          <div>
-            <h3>Board Exam Scholarship</h3>
-            <p>Jashore Education Board, Bangladesh · Scholarship holder based on S.S.C. and H.S.C. results.</p>
-          </div>
-        </li>
-        <li>
-          <span class="item-icon"><svg><use href="#i-medal"/></svg></span>
-          <div>
-            <h3>National Round - Mathematics Olympiad, Bangladesh (2017)</h3>
-            <p>National Mathematics Olympiad Committee · Selected for the national round based on performance in the regional selection phase.</p>
-          </div>
-        </li>
-      </ul>
-    </section>
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Experience</p>
+        <h2>Where I have worked.</h2>
+      </div>
 
-    <!-- Certifications -->
-    <section class="block" id="certifications">
-      <h2><span class="block-no">06</span>Certifications</h2>
-      <p class="block-intro">Coursera, 2020</p>
-      <ul class="cert-list">
-        <li><a href="https://www.coursera.org/account/accomplishments/certificate/EYE4JCEX2X6F" target="_blank" rel="noopener"><span class="cert-icon"><svg><use href="#i-check"/></svg></span>Programming for Everybody (Getting Started with Python)</a></li>
-        <li><a href="https://www.coursera.org/account/accomplishments/certificate/7GD6NEZPCWGU" target="_blank" rel="noopener"><span class="cert-icon"><svg><use href="#i-check"/></svg></span>Python Data Structures</a></li>
-        <li><a href="https://www.coursera.org/account/accomplishments/certificate/5Q9MK2SJ3GAW" target="_blank" rel="noopener"><span class="cert-icon"><svg><use href="#i-check"/></svg></span>Using Python to Access Web Data</a></li>
-        <li><a href="https://www.coursera.org/account/accomplishments/certificate/FDYYBASZRAFY" target="_blank" rel="noopener"><span class="cert-icon"><svg><use href="#i-check"/></svg></span>The Data Scientist's Toolbox</a></li>
-        <li><a href="https://www.coursera.org/account/accomplishments/certificate/X5DXLANFD9R3" target="_blank" rel="noopener"><span class="cert-icon"><svg><use href="#i-check"/></svg></span>Excel Skills for Business: Essentials</a></li>
-        <li><a href="https://www.coursera.org/account/accomplishments/certificate/3785XB2D8LVH" target="_blank" rel="noopener"><span class="cert-icon"><svg><use href="#i-check"/></svg></span>Excel Skills for Business: Intermediate I</a></li>
-        <li><a href="https://www.coursera.org/account/accomplishments/certificate/QFAZQMXP7LZ9" target="_blank" rel="noopener"><span class="cert-icon"><svg><use href="#i-check"/></svg></span>Introduction to Applied Machine Learning</a></li>
-      </ul>
-    </section>
+      <div class="tl">
+        <article class="tl-item reveal">
+          <div class="tl-side"><span class="tl-date">2022 - Present</span><span class="pill now">Current</span></div>
+          <div class="card tl-card">
+            <h3>Senior Lecturer</h3>
+            <p class="org">Northern University of Business and Technology, Khulna</p>
+            <ul class="ticks">
+              <li><strong>Teaching:</strong> undergraduate and postgraduate courses in Object Oriented Programming, Computer Networks, Computing and Software Development.</li>
+              <li><strong>Assessment:</strong> designing and grading exams, assignments and projects with constructive feedback.</li>
+              <li><strong>Mentorship:</strong> advising students on academic and career goals and guiding research projects.</li>
+              <li><strong>Research:</strong> research in my area, writing proposals for funding, and interdisciplinary work with colleagues and industry.</li>
+            </ul>
+          </div>
+        </article>
 
-    <!-- Activities -->
-    <section class="block" id="activities">
-      <h2><span class="block-no">07</span>Activities &amp; Service</h2>
-      <ul class="plain-list icon-list">
-        <li>
-          <span class="item-icon"><svg><use href="#i-spark"/></svg></span>
-          <div>
-            <h3>Judge, Intra-University Debate Competition</h3>
-            <p>Aug 2024 · Gave frank but constructive feedback to competitors without revealing a preference for a winner.</p>
+        <article class="tl-item reveal">
+          <div class="tl-side"><span class="tl-date">Feb - Apr 2020</span></div>
+          <div class="card tl-card">
+            <h3>Undergraduate Teaching Assistant</h3>
+            <p class="org">BRAC University, Dhaka</p>
+            <ul class="ticks">
+              <li>Helped students improve grades, test-taking and confidence, and planned classes for weaker topics.</li>
+              <li>Tutored in person, online and on demand, and moved fully to recorded and live sessions during COVID-19.</li>
+            </ul>
           </div>
-        </li>
-        <li>
-          <span class="item-icon"><svg><use href="#i-spark"/></svg></span>
-          <div>
-            <h3>BRACU Response Team for COVID-19 Emergency Support</h3>
-            <p>Apr 2020 - Jul 2021</p>
-          </div>
-        </li>
-        <li>
-          <span class="item-icon"><svg><use href="#i-spark"/></svg></span>
-          <div>
-            <h3>Event Management Member, Robotics Club of BRAC University</h3>
-            <p>2018 - 2020 · Learned to manage and organise events successfully while working within real constraints.</p>
-          </div>
-        </li>
-      </ul>
-    </section>
+        </article>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section class="block block-contact" id="contact">
-      <h2><span class="block-no">08</span>Contact</h2>
-      <div class="contact-grid">
-        <div class="contact-card">
-          <svg><use href="#i-mail"/></svg>
-          <p class="contact-label">Email</p>
-          <a href="mailto:ghosharjan@gmail.com">ghosharjan@gmail.com</a>
-          <a href="mailto:arjan.ghosh@g.bracu.ac.bd">arjan.ghosh@g.bracu.ac.bd</a>
-        </div>
-        <div class="contact-card">
-          <svg><use href="#i-phone"/></svg>
-          <p class="contact-label">Phone</p>
-          <a href="tel:+8801752914949">+880 1752 914949</a>
-        </div>
-        <div class="contact-card">
-          <svg><use href="#i-pin"/></svg>
-          <p class="contact-label">Location</p>
-          <p>Khulna, Bangladesh</p>
-        </div>
-        <div class="contact-card">
-          <svg><use href="#i-external"/></svg>
-          <p class="contact-label">Elsewhere</p>
-          <a href="https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+  <!-- Education -->
+  <section class="section alt" id="education">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background.</h2>
+      </div>
+
+      <div class="edu-grid">
+        <article class="card edu reveal">
+          <div class="edu-top"><span class="edu-yr">2022 - 2026</span><span class="gpa">3.91<small>/4.00</small></span></div>
+          <h3>M.Sc. in Computer Science and Engineering</h3>
+          <p class="org">Khulna University, Khulna</p>
+          <p class="muted">Big Data, Research Methodology, Machine Learning · Highest Distinction</p>
+          <div class="thesis"><span>Thesis</span>A machine learning and DEM-based approach for predicting sea level rise and assessing coastal risk in Bangladesh using AI insights.</div>
+        </article>
+
+        <article class="card edu reveal">
+          <div class="edu-top"><span class="edu-yr">2017 - 2021</span><span class="gpa">3.75<small>/4.00</small></span></div>
+          <h3>B.Sc. in Computer Science and Engineering</h3>
+          <p class="org">BRAC University, Dhaka</p>
+          <p class="muted">OOP, Data Structures, Algorithms, Databases, Machine Learning, Networks · Highest Distinction</p>
+          <div class="thesis"><span>Thesis</span>Amazon Product Reviews - Sentiment Analysis Using Supervised Learning Algorithms.</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="section" id="achievements">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Achievements</p>
+        <h2>Honours, certificates and service.</h2>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Achievements">
+        <button class="tab active" role="tab" aria-selected="true" aria-controls="p-awards" id="t-awards">Honours &amp; awards</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="p-certs" id="t-certs" tabindex="-1">Certifications</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="p-acts" id="t-acts" tabindex="-1">Activities</button>
+      </div>
+
+      <div class="panel active" id="p-awards" role="tabpanel" aria-labelledby="t-awards">
+        <div class="a-grid">
+          <article class="card a-card"><svg><use href="#i-award"/></svg><h3>Merit-Based Academic Scholarship</h3><p>BRAC University · 12 consecutive semesters for high academic results.</p></article>
+          <article class="card a-card"><svg><use href="#i-star"/></svg><h3>Vice-Chancellor's List</h3><p>BRAC University · Named in four separate semesters.</p></article>
+          <article class="card a-card"><svg><use href="#i-award"/></svg><h3>Board Exam Scholarship</h3><p>Jashore Education Board · Based on S.S.C. and H.S.C. results.</p></article>
+          <article class="card a-card"><svg><use href="#i-graph"/></svg><h3>Mathematics Olympiad, National Round</h3><p>Bangladesh, 2017 · Qualified from the regional round.</p></article>
         </div>
       </div>
-    </section>
 
-    <footer class="site-footer">
-      <p>© <span id="year"></span> Arjan Ghosh.</p>
-    </footer>
+      <div class="panel" id="p-certs" role="tabpanel" aria-labelledby="t-certs" hidden>
+        <ul class="c-list">
+          <li><a href="https://www.coursera.org/account/accomplishments/certificate/EYE4JCEX2X6F" target="_blank" rel="noopener"><svg><use href="#i-cert"/></svg><span>Programming for Everybody (Getting Started with Python)</span><svg class="go"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://www.coursera.org/account/accomplishments/certificate/7GD6NEZPCWGU" target="_blank" rel="noopener"><svg><use href="#i-cert"/></svg><span>Python Data Structures</span><svg class="go"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://www.coursera.org/account/accomplishments/certificate/5Q9MK2SJ3GAW" target="_blank" rel="noopener"><svg><use href="#i-cert"/></svg><span>Using Python to Access Web Data</span><svg class="go"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://www.coursera.org/account/accomplishments/certificate/FDYYBASZRAFY" target="_blank" rel="noopener"><svg><use href="#i-cert"/></svg><span>The Data Scientist's Toolbox</span><svg class="go"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://www.coursera.org/account/accomplishments/certificate/QFAZQMXP7LZ9" target="_blank" rel="noopener"><svg><use href="#i-cert"/></svg><span>Introduction to Applied Machine Learning</span><svg class="go"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://www.coursera.org/account/accomplishments/certificate/X5DXLANFD9R3" target="_blank" rel="noopener"><svg><use href="#i-cert"/></svg><span>Excel Skills for Business: Essentials</span><svg class="go"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://www.coursera.org/account/accomplishments/certificate/3785XB2D8LVH" target="_blank" rel="noopener"><svg><use href="#i-cert"/></svg><span>Excel Skills for Business: Intermediate I</span><svg class="go"><use href="#i-arrow"/></svg></a></li>
+        </ul>
+        <p class="note">All from Coursera, 2020.</p>
+      </div>
 
-  </main>
-</div>
+      <div class="panel" id="p-acts" role="tabpanel" aria-labelledby="t-acts" hidden>
+        <div class="a-grid">
+          <article class="card a-card"><svg><use href="#i-star"/></svg><h3>Judge, Intra-University Debate</h3><p>Aug 2024 · Gave fair, constructive feedback to all competitors.</p></article>
+          <article class="card a-card"><svg><use href="#i-award"/></svg><h3>BRACU COVID-19 Response Team</h3><p>Apr 2020 - Jul 2021 · Emergency support volunteer.</p></article>
+          <article class="card a-card"><svg><use href="#i-chip"/></svg><h3>Robotics Club, BRAC University</h3><p>2018 - 2020 · Event management member.</p></article>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<button id="backToTop" class="back-to-top" aria-label="Back to top"><svg><use href="#i-arrow-up"/></svg></button>
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-box reveal">
+        <div class="contact-copy">
+          <p class="eyebrow light">Contact</p>
+          <h2>Let's work together.</h2>
+          <p>For teaching, research or reviewing matters, email is the best way to reach me.</p>
+          <a class="btn btn-white" href="mailto:ghosharjan@gmail.com">Send an email <svg><use href="#i-arrow"/></svg></a>
+        </div>
+        <ul class="contact-list">
+          <li><span class="ci"><svg><use href="#i-mail"/></svg></span><div><small>Email</small><a href="mailto:ghosharjan@gmail.com">ghosharjan@gmail.com</a><a href="mailto:arjan.ghosh@g.bracu.ac.bd">arjan.ghosh@g.bracu.ac.bd</a></div></li>
+          <li><span class="ci"><svg><use href="#i-phone"/></svg></span><div><small>Phone</small><a href="tel:+8801752914949">+880 1752 914949</a></div></li>
+          <li><span class="ci"><svg><use href="#i-pin"/></svg></span><div><small>Location</small><span>Khulna, Bangladesh</span></div></li>
+          <li><span class="ci"><svg><use href="#i-scholar"/></svg></span><div><small>Profile</small><a href="https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year"></span> Arjan Ghosh</p>
+    <a href="#top">Back to top <svg><use href="#i-up"/></svg></a>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Back to top"><svg><use href="#i-up"/></svg></button>
 
 <script src="script.js"></script>
 </body>

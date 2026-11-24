@@ -6,7 +6,7 @@ Static academic portfolio built from Arjan Ghosh's CV. Plain HTML, CSS and JavaS
 
 - `index.html` - all page content
 - `styles.css` - all styling
-- `script.js` - mobile menu, active-section highlight, back-to-top
+- `script.js` - menu, dark mode, scroll effects, count-up numbers, tabs
 - `assets/arjan.jpg` - profile photo
 
 ## Run on your PC
@@ -15,12 +15,10 @@ Double-click `index.html`, or in VS Code install the "Live Server" extension, ri
 
 ## Put it live with GitHub Pages
 
-1. On github.com/Arjan49 create a new public repository named `arjan-ghosh`.
+1. The repository is `arjan-ghosh/arjan-ghosh.github.io` (public).
 2. Upload every file and the `assets` folder (Add file > Upload files), then commit.
 3. Repository Settings > Pages > Source: "Deploy from a branch", Branch: `main`, Folder: `/ (root)`, Save.
-4. After 1-2 minutes the site is live at `https://arjan49.github.io/arjan-ghosh/`
-
-To get the short address `https://arjan49.github.io/` instead, name the repository exactly `Arjan49.github.io`.
+4. After 1-2 minutes the site is live at `https://arjan-ghosh.github.io/`
 
 ## Update later
 
